@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1667216324249-c04ad5284ff2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: wheat;
+    box-shadow: inset 0 0 0 2000px rgb(0, 0, 0, 0.3);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.logo a {
+    font-size: 24px;
+}
+
+.header-info {
+    margin-top: 9rem;
+    width: 900px;
+}
+.header-info h3 {
+    font-size: 48px;
+    font-weight: lighter;
+}
+.header-btn input {
+    padding: 0.4rem;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.header-btn button {
+    padding: 0.4rem;
+    width: 150px;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.about {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.about-con {
+    padding: 0 10rem;
+}
+
+.about-title {
+    color: brown;
+    font-size: 2rem;
+}
+
+.about-desc {
+    color: chocolate;
+    margin: 1rem 0;
+}
+
+.pricing {
+    background-color: rgb(204, 200, 194);
+    text-align: center;
+    padding: 3rem 0;
+}
+
+
+.pricing-info h3 {
+    font-weight:  lighter;
+    font-size: 2rem;
+}
+
+.pricing-info p {
+    margin: 1rem 0;
+}
+.pricing-table {
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.pricing-box {
+    background-color: white;
+    
+}
+
+.pricing-box-title {
+    background-color: rgb(90, 76, 50);
+    color: aliceblue;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.pricing-box-info {
+    padding: 1rem;
+}
+
+.price-blue {
+    color: brown;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pricing-box-info p {
+    margin: 0.5rem 0;
+}
+
+.pricing-more-info {
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: goldenrod;
+    padding: 1rem;
+    width: 100%;
+    color: brown;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pricing-more-info {
+    display: center;
+}
+
+.PartnerCompanies {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.partner-title h3 {
+    color: rgb(139, 120, 99);
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.partner-title p {
+    color: black;
+    margin: 1rem 0;
+
+}
+
+.partner-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    font-size: 15px;
+    padding: 1rem 0;
+}
+
+.partner-img {
+    display: flex;
+    align-items: center;
+}
+
+.partner-img2 {
+    display: flex;
+    align-items: center;
+}
+
+.partner-img img {
+    margin: 1rem 3rem;
+    width: 50%;
+    border-radius: 100%;
+}
+
+.partner-img2 img {
+    margin: 1rem 4rem;
+    width: 30%;
+    border-radius: 100%;
+}
+.partner-img p {
+    margin: 1rem -3rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.partner-img2 p {
+    margin: 1rem -2rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.partner-desc p {
+    margin: 1rem 0;
+}
+
+.newslatter {
+    background: url('https://images.unsplash.com/photo-1711598850168-ae7592efc741?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+
+}
+
+.newslatter-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.newslatter-title h3 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.newslatter-title input {
+    padding: 0.4rem;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.newslatter-title button {
+    padding: 0.4rem;
+    width: 150px;
+    background-color: rgb(10, 50, 122);
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    color: white;
+}
+
+.newslatter-title p {
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: rgb(190, 176, 168);
+    padding: 1rem;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.footer-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-menu li {
+    margin-right: 1rem;
+}
+
+.footer-menu ul li a {
+    text-transform: uppercase;
+    font-size: 14px;
+}
