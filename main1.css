@@ -116,7 +116,11 @@ nav a {
 }
 
 .pricing-box-info {
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
+    height: 430px;
+    justify-content: space-between;
 }
 
 .price-blue {
@@ -127,6 +131,11 @@ nav a {
 
 .pricing-box-info p {
     margin: 0.5rem 0;
+
+}
+
+.pricing-box-btn {
+    
 }
 
 .pricing-more-info {
